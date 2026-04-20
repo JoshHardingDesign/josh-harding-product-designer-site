@@ -4,7 +4,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 100dvh;
     padding: 50px;
 }
 
@@ -177,13 +177,28 @@ footer {
     font-size: .75rem;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 402px) {
     h1 {
         font-size: 48px;
     }
     
+    h2 {
+    font-size: 36px;
+    color: #FFFFFF;
+    }
+    
     p {
         font-size: 12px;
+    }
+
+    .big-body {
+    font-size: 1.5rem;
+    font-weight: 200;
+    }
+
+    main {
+    width: 80%;
+    margin: 10%;
     }
 
     .hero {
@@ -199,6 +214,7 @@ footer {
     .impact-metric {
         font-size: 27px;
     }
+
     .project-widget {
         display: flex;
         flex-direction: column;
@@ -213,6 +229,7 @@ footer {
         object-fit: contain;
         overflow: hidden;
     }
+
     .project-image-container {
         overflow: hidden;
         width: 100%;
@@ -220,15 +237,23 @@ footer {
         margin-top: auto;
         object-fit: contain;
     }
+
+    .navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    }
 }
 
-@media (min-width: 651px) and (max-width: 980px) {
-    .impact-metric {
-        font-size: 27px;
-    }
-    
+@media (min-width: 402px) and (max-width: 980px) {
     p {
         font-size: 12px;
+    }
+
+    main {
+    width: 80%;
+    margin: 10%;
     }
 
     .hero {
@@ -239,5 +264,9 @@ footer {
 
     .hero-right {
         display: none;
+    }
+
+      .impact-metric {
+        font-size: 27px;
     }
 }
