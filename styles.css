@@ -1,11 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     background-color: #0A0E1E;
     font-family: "Montserrat", sans-serif;
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     min-height: 100dvh;
-    padding: 50px;
+    padding: 0 auto;
 }
 
 header {
@@ -23,7 +27,8 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin: 0 auto;
+    /* margin-top: 5%; */
+    margin: 2% auto;
 }
 
 .nav_items {
@@ -178,37 +183,49 @@ footer {
 }
 
 @media (max-width: 402px) {
+    body {
+        background-color: #0A0E1E;
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        min-height: 100dvh;
+        width: 80%;
+        padding: 0;
+        margin: auto;
+    }
+
     h1 {
         font-size: 48px;
     }
     
     h2 {
-    font-size: 36px;
-    color: #FFFFFF;
+        font-size: 36px;
+        color: #FFFFFF;
     }
     
     h3 {
         font-size: 28px;
     }
-    
+
     p {
         font-size: 12px;
     }
 
     .big-body {
-    font-size: 1.5rem;
-    font-weight: 200;
+        font-size: 16px;
+        font-weight: 200;
     }
 
     main {
-    width: 80%;
-    margin: 10%;
+        width: 80%;
+        /* margin: 10%; */
     }
 
     .hero {
-    display: grid;
-    grid-template-columns: 1fr;
-    height: 80vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80vh;
     }
 
     .hero-right {
@@ -220,9 +237,12 @@ footer {
     }
 
     .project-widget {
-        display: flex;
+        /* display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: start; */
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
         width: 100%;
         height: 70vh;
 
@@ -255,6 +275,11 @@ footer {
         font-size: 12px;
     }
 
+    .big-body {
+        font-size: 16px;
+        font-weight: 200;
+    }
+
     main {
     width: 80%;
     margin: 10%;
@@ -272,5 +297,17 @@ footer {
 
       .impact-metric {
         font-size: 27px;
+    }
+
+        .project-widget {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: start; */
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        height: 70vh;
+
     }
 }
