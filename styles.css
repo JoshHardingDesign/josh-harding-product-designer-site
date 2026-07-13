@@ -68,8 +68,11 @@ a {
 }
 
 .work-label {
-    font-size: 16px;
-    color:#9a9a9a
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color:#9f9f9f
 }
 .hero-about {
     display:grid;
@@ -91,8 +94,19 @@ a {
     height: auto;
     border-radius: 16px;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
+
+.project {
+    margin-bottom: 80px;
+}
+
+.read-more {
+    font-size: 12px;
+    color: #00E7FF;
+    text-decoration: none;
+}
+
 .hero-project {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -490,7 +504,7 @@ footer {
     gap: 3rem;
 }
     .hero-about {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr;
     height: 40vh;
     margin-bottom: 3rem;
@@ -583,7 +597,7 @@ footer {
     gap: 3rem;
 }
 .hero-about {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr;
     height: 40vh;
     margin-bottom: 3rem;
