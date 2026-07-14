@@ -506,7 +506,7 @@ footer {
     .hero-about {
     display: grid;
     grid-template-columns: 1fr;
-    height: 40vh;
+    min-height: 40vh;
     margin-bottom: 3rem;
 }
 
@@ -599,7 +599,7 @@ footer {
 .hero-about {
     display: grid;
     grid-template-columns: 1fr;
-    height: 40vh;
+    min-height: 40vh;
     margin-bottom: 3rem;
 }
 
