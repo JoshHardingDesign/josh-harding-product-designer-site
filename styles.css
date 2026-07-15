@@ -75,7 +75,7 @@ a {
     color:#9f9f9f
 }
 .hero-about {
-    display: grid;
+    display:grid;
     grid-template-columns: 2fr `1fr;
     height: 40vh;
     margin-bottom: 8rem;
@@ -133,6 +133,14 @@ a {
     font-weight: 100;
     color: #ffffff;
     margin: 2rem;
+}
+
+.projet-title {
+    margin-bottom: 10px;
+}
+
+.project-home-description {
+    margin: 0;
 }
 
 .project-description {
@@ -449,7 +457,11 @@ footer {
         height: 70vh;
 
     }
-
+    
+    .project {
+        margin-bottom: 40px;
+    }
+    
     .project-image {
         align-items: center;
         object-fit: contain;
@@ -504,7 +516,7 @@ footer {
     gap: 3rem;
 }
     .hero-about {
-    display: grid;
+    display:grid;
     grid-template-columns: 1fr;
     min-height: 40vh;
     margin-bottom: 3rem;
@@ -567,6 +579,10 @@ footer {
         font-size: 27px;
     }
 
+    .project {
+        margin-bottom: 40px;
+    }
+
 .project-widget {
     /* display: flex;
     flex-direction: column;
@@ -597,7 +613,7 @@ footer {
     gap: 3rem;
 }
 .hero-about {
-    display: grid;
+    display:grid;
     grid-template-columns: 1fr;
     min-height: 40vh;
     margin-bottom: 3rem;
