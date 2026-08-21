@@ -7,94 +7,112 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 <body>
     <div>
-    <header>
-        <nav class="navigation">
-                <a href="./index.html"><img src="./images/jh-logo-mark-white.svg" alt="JH Monogram" class="main_logo"></a>
-            <div class="nav_group_links">
-                <ul>
-                    <li class="nav_items"><a href="#work-section">Work</a></li>
-                    <li class="nav_items"><a href="./about.html">About</a></li>
-                    <li class="nav_items"><a href="#contact-section">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="hero-centered">
-                <div><h1>Hi, I'm Josh Harding</h1>
-                <p class="big-body">I design products for people who can't afford to make the wrong call.</p>
+        <header>
+            <nav class="navigation">
+                <a href="./index.html"><img src="./images/jh-logo-mark-white.svg" alt="JH Monogram"
+                        class="main_logo"></a>
+                <div class="nav_group_links">
+                    <ul>
+                        <li class="nav_items"><a href="https://drive.google.com/file/d/1sCc6e_-9mGhKr966xI0JpeGTvCqOodsL/view?usp=sharing">Resume</a></li>
+                        <!-- <li class="nav_items"><a href="#work-section">Work</a></li> -->
+                        <li class="nav_items"><a href="./about.html">About</a></li>
+                        <li class="nav_items"><a href="#contact-section">Contact</a></li>
+                    </ul>
                 </div>
-            <!-- <div class="hero-left">
-                <h1>Hi, I'm Josh Harding</h1>
-                <p class="big-body">I design products for people who can't afford to make the wrong call.</p>
+            </nav>
+        </header>
+        <main>
+            <div class="home-hero">
+                <div>
+                    <h1 class="big-body is-bold">Hi, I'm <br>Josh Harding</h1>
+                </div>
+                <div>
+                    <h1 class="big-body">I design products for people who can't afford to make the wrong call.</h1>
+                </div>
             </div>
-            <div class="hero-right">
-                <img src="./images/hero-image.png" alt="image of 2 phones with applications">
-            </div> -->
-        </div>
-        <!-- <a href="#work-section"><p>&#8595; Work</p></a> -->
-        <h2 class="work-label" id="work-section">Currently Building</h2>
-        
-        <div class="project">
-        <video class="project-video" src="./videos/AxiomHub_KnowledgeLandscape.webm" autoplay loop muted playsinline
-            width="100%">
-        </video>
-        <h3 style="margin:0">AxiomHub</h3>
-        <p>Too many requests. Too few experts. Too much at stake to leave it to chance.</p>
-        <a href="./axiomhub-case-study.html">
-            <p class="read-more">Read More &#8594;</p>
-        </a>
-        </div>
-        
-        <div class="project">
-            <video class="project-video" src="./videos/ForeSite360-CoursesOfAction.webm" autoplay loop muted playsinline
-                width="100%">
-            </video>
-            <h3 style="margin:0">ForeSite360</h3>
-                <p>This business intelligence platform moves CIOs, Operations teams, and Security teams from reactive to proactive using a multi-agentic backend to detect patterns in disperate data streams and identify risks to the organization allowing teams to prevent them before they even start.</p>
-                <a href="/foresite360-case-study.html">
-                    <p class="read-more">Read More &#8594;</p></a>
-        </div>    
-        
-        <h2 class="work-label" id="work-section">Other Things I've built</h2>
-        <div class="other-work">
+            <h2 class="section-label" id="work-section">CURRENT WORK</h2>
+       
+        <div class="current-project">
             <div>
-                <img src="./images/jarvis-banner.png" class="other-work-banner">
-                <h3 style="margin:0">Jarvis</h3>
-                <p>Unmonitored AI agents create runaway costs and accountability gaps that are nearly impossible to untangle after the
-                fact. I designed a tracking platform that surfaces agent usage, cost, and performance in real time, giving teams the
-                visibility they need to optimize spend and maintain oversight at scale.
-                </p>
-                <a href="./jarvis.html">
-                    <p  class="read-more">Read More &#8594;</p>
-                </a>
+                <h3 class="current-title">What if you had real-time insight into your cloud spend and a system smart enough to fix it?</h3>
+            </div>
+            <div class="current-description">
+                <div>
+                    <p class="no-margin-top">In a nationwide organization with infrastructure spanning the country, teams across the organization all wake up to see
+                    alarm bells going off on their devices. Systems are failing, customer experience is degraded, and no one knows what
+                    happened. Each team starts submitting support tickets for each of the critical signals, but which one is the root cause?</p>
+                    <a href="./foresite360-case-study.html">
+                        <p class="read-more">Case Study &#8594;</p>
+                    </a>
+                </div>
+                <div>
+                    <p class="is-bold" style="margin:0">Key Contributions
+                    <p>
+                    <ul class="key-contributions">
+                        <li>Lead Designer</li>
+                        <li>Product Owner</li>
+                        <li>HTML/CSS for the Design System</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="./images/foresite-home2.png" class="current-work-image">
+        </div>
+        <div class="current-project">
+            <div>
+                <h3 class="current-title">Can a knowledge management system actively level up your employees?</h3>
+            </div>
+            <div class="current-description">
+                <div>
+                    <p class="no-margin-top">Employees at the FDA were becoming overwhelmed by requests for how to move through the registration process for
+                    cosmetics. There weren't enough employees to field the growing number of requests, and as new employees came in, they
+                    didn't have the institutional knowledge to quickly and efficiently answer questions. When we looked deeper, we found
+                    that this problem existed throughout and beyond the agency.</p>
+                    <a href="./axiomhub-case-study.html"><p class="read-more">Case Study &#8594;</p></a>
+                </div>
+                <div>
+                    <p class="is-bold" style="margin:0">Key Contributions<p>
+                    <ul class="key-contributions">
+                        <li>Lead Designer</li>
+                        <li>Product Owner</li>
+                        <li>Front-end Dev Support</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="./images/axiomhub-home2b.png" class="current-work-image">
+        </div>
+        <h2 class="section-label">PAST WORK</h2>
+        <div class="past-work">
+            <div>
+                <h3 class="past-work-title">Jarvis</h3>
+                <p>Monitor LLMs and Agents within your organization with visibility into cost and usage analytics.</p>
+                <img src="./images/jarvis-logo.png" class="other-work-banner">
             </div>
             <div>
-                <img src="./images/Door-Banner.png" class="other-work-banner">
-                <h3 style="margin:0">Door</h3>
-                <p>Designed new features and user flows, including a new user dashboard and advanced search features, resulting in a
-                    faster time-to-initial task as well as increased approval times due to the introduction of a bulk approval process.
-                </p>
-                <a href="/door-case-study.html">
-                    <p class="read-more">Read More &#8594;</p>
-                </a>
+                <h3 class="past-work-title">CareerCircle</h3>
+                <p>Connects job seekers with free career coaching, skills training, and employers using skills-based hiring.</p>
+                <img src="./images/careercircle-logo.png" class="other-work-banner">
             </div>
-        </div>        
-            <!-- <h3 style="margin:0">RegAssist</h3>
-        <p>Designed the user experience for chat interface that walks users through the FDA registration process for new
-            cosmetics. Currently Product Managing the development team building the next evolution.</p>
-        <img src="./images/RegAssist-Banner.png" class="project-banner"> -->
-        
-            <h2 id="contact-section">Contact</h2>
-        <p class="big-body" style="margin:0"><a href="mailto:hello@joshhardingdesign.com">hello@joshhardingdesign.com</a></p>
-        <!-- <p><em>Case Studies and Resume available upon request</em></p> -->
-        <a href="https://www.linkedin.com/in/jhardingdesign/"><img class="social-icon" src="./images/linkedin-svgrepo-com.svg"></a><a href="https://github.com/JoshHardingDesign"><img class="social-icon" src="./images/github-142-svgrepo-com.svg"></a><a href="https://www.linkedin.com/in/jhardingdesign/"><img class="social-icon" src="./images/substack-icon.svg"></a>
-    </main>
-    <footer><p>© Josh Harding 2026</p></footer>
+            <div>
+                <h3 class="past-work-title">Sonavex</h3>
+                <p>Portable ultrasound letting dialysis staff measure fistula maturation without sonographer training.</p>
+                <img src="./images/sonavex-logo.png" class="other-work-banner">
+            </div>
+        </div>
+        <h2 class="section-label" id="contact-section">WANT TO KNOW MORE?</h2>
+        <p class="big-body no-margin-top">
+            My coding journey is on <a href="https://github.com/JoshHardingDesign" class="link">GitHub</a>,<br>
+            my thoughts are on <a href="https://substack.com/@deindevelum598724" class="link">Substack</a>,<br>
+            my experience is on <a href="https://www.linkedin.com/in/jhardingdesign/" class="link">LinkedIn</a>,<br>
+            or email me at <a href="mailto:hello@joshhardingdesign.com" class="link">hello@joshhardingdesign.com</a>
+        </p>
+        </main>
+        <footer>
+            <p>© Josh Harding 2026</p>
+        </footer>
     </div>
 </body>
-</html>
