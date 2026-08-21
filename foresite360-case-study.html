@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script>
-        (function() {
-            var pass = prompt("Enter password:");
-            if (pass !== "NostalgicNarwal") {
-                document.write("Access denied.");
-                window.stop();
-                throw new Error("Wrong password");
-            }
-        })();
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Josh Harding - Product Designer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 <body>
     <div>
     <header>
         <nav class="navigation">
-                <a href="./index.html"><img src="./images/jh-logo-mark-white.svg" alt="JH Monogram" class="main_logo"></a>
+            <a href="./index.html"><img src="./images/jh-logo-mark-white.svg" alt="JH Monogram" class="main_logo"></a>
             <div class="nav_group_links">
                 <ul>
-                    <li class="nav_items"><a href="index.html#work-section">Work</a></li>
+                    <li class="nav_items"><a
+                            href="https://drive.google.com/file/d/1sCc6e_-9mGhKr966xI0JpeGTvCqOodsL/view?usp=sharing">Resume</a>
+                    </li>
+                    <!-- <li class="nav_items"><a href="#work-section">Work</a></li> -->
                     <li class="nav_items"><a href="./about.html">About</a></li>
-                    <li class="nav_items"><a href="index.html#contact-section">Contact</a></li>
+                    <li class="nav_items"><a href="#contact-section">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -71,14 +65,14 @@
         <div class="project-subsection">
             <h2 class="project-subsection-title">Disaster Strikes</h2>
             <p class="gray-text"><strong>6:15 am:</strong> A routine deployment goes out; the dev team pushes dozens of these a week. Just a small database change; it
-            feels safe, no rollback is triggered. All signals are green; the engineering team moves on to other tasks.
+            feels safe, no rollback is triggered. All signals are green; the engineering team moves on to other tasks.</p>
             
-            <strong>10:00 am:</strong> As traffic is picking up, we're starting to see certain customer touch points slowing down: checkout, card
+            <p class="gray-text"><strong>10:00 am:</strong> As traffic is picking up, we're starting to see certain customer touch points slowing down: checkout, card
             approval, etc. The CDN team is seeing a rise in origin response times, so they adjust their configuration, adding even
             more load onto an overextended system. Business Analytics is flagging it as a possible UX issue; red signals are
-            starting to fire across the board.
+            starting to fire across the board.</p>
             
-            <strong>11:00 am:</strong> Checkout is now down completely; every team with a critical warning is chasing down symptoms while the root
+            <p class="gray-text"><strong>11:00 am:</strong> Checkout is now down completely; every team with a critical warning is chasing down symptoms while the root
             cause goes ignored. The data has existed since deployment, but because of disconnected systems, the issue was never
             seen.</p>
             <img class="project-main-image" src="./images/ForeSite360-Timeline.png">
@@ -150,6 +144,7 @@
             design the components. Having a hand in both the design and the code creates a sense of ownership and only adds to the
             dedication of getting it right.</p>
             <img class="project-main-image" src="./images/ForeSite360-Visualizations.png">
+            <img class="project-main-image" src="./images/ForeSite360-Compute.png">
             <img class="project-main-image" src="./images/ForeSite360-System.png">
         </div>
 
@@ -169,9 +164,16 @@
         <div class="project-subsection">
             <h2 class="project-subsection-title">Conclusion</h2>
             <p class="big-body gray-text">Through a vast array of custom-trained models, machine learning algorithms, and other solutions our team built, we were
-            able to prevent downtime to critical infrastructure that Centers for Medicare and Medicaid Services beneficiaries depend
+            able to prevent downtime to critical infrastructure that Centers for Medicare and medicaid Services beneficiaries depend
             on for ongoing healthcare. We didn't just create a lifeline for an organization; we created it for their users too.</p>
         </div>
+        <h2 class="section-label" id="contact-section">WANT TO KNOW MORE?</h2>
+        <p class="big-body no-margin-top">
+            My coding journey is on <a href="https://github.com/JoshHardingDesign" class="link">GitHub</a>,<br>
+            my thoughts are on <a href="https://substack.com/@deindevelum598724" class="link">Substack</a>,<br>
+            my experience is on <a href="https://www.linkedin.com/in/jhardingdesign/" class="link">LinkedIn</a>,<br>
+            or email me at <a href="mailto:hello@joshhardingdesign.com" class="link">hello@joshhardingdesign.com</a>
+        </p>
     </main>
     <footer><p>© Josh Harding 2026</p></footer>
     </div>
